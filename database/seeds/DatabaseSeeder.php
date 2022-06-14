@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
+/* Import del mio seeder (HotelTableSeeder) */
+use HotelTableSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -11,6 +13,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UserSeeder::class);
+        /* Questo va attivato anche col nome del seeder creato */
+        $this->call(HotelTableSeeder::class);
     }
 }
