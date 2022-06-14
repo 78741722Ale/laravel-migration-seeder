@@ -8,7 +8,7 @@ class PageController extends Controller
 {
     public function index() {
         $hotels = Hotel::all();
-        dd($hotels);
-        return view('home');
+        /* dd($hotels); */
+        return view('home' , compact('hotels'));
     }
 }
