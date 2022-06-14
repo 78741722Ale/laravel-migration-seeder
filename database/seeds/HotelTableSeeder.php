@@ -23,9 +23,9 @@ class HotelTableSeeder extends Seeder
                 'address' => 'Via Leonardo Da vinci',
                 'city' => 'Milano',
                 'civic' => 5,
-                'begin_at' => ('m d Y'),
-                'end_at' => ('m d Y'),
-                'price' => 299.99,
+                'begin_at' => ("07-25-2012"),
+                'end_at' => ("07-25-2012"),
+                'price' => 2299.99,
                 'note' => 'lorem picsum'
             ],
             /* Questo è il primo hotel che intendo
@@ -35,9 +35,9 @@ class HotelTableSeeder extends Seeder
                 'address' => 'Via Leonardo Da vinci',
                 'city' => 'Torino',
                 'civic' => 10,
-                'begin_at' => ('m d Y'),
-                'end_at' => ('m d Y'),
-                'price' => 599.99,
+                'begin_at' => ("07-25-2012"),
+                'end_at' => ("07-25-2012"),
+                'price' => 5299.99,
                 'note' => 'lorem picsum'
             ],
         ];

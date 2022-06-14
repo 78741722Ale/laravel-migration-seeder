@@ -19,8 +19,8 @@ class CreateTravelsTable extends Migration
             $table->string('address', 40);
             $table->string('city', 40);
             $table->tinyInteger('civic')->unsigned();
-            $table->date('begin_at');
-            $table->date('end_at');
+            $table->string('begin_at', 20);
+            $table->string('end_at', 20);
             $table->decimal('price', 6, 2);
             $table->text('note');
             $table->timestamps();
