@@ -15,7 +15,6 @@ class CreateTravelsTable extends Migration
     {
         Schema::create('travels', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
             $table->string('name', 40);
             $table->string('address', 40);
             $table->string('city', 40);
@@ -24,6 +23,7 @@ class CreateTravelsTable extends Migration
             $table->date('end_at');
             $table->decimal('price', 6, 2);
             $table->text('note');
+            $table->timestamps();
         });
     }
 
