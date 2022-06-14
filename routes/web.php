@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 /* Prima rotta base senza page controller */
-Route::get('/', function () {
+/* Route::get('/', function () {
     return view('home');
 })->name('home');
+ */
+
+Route::get('/', 'PageController@index')->name('home');
+
