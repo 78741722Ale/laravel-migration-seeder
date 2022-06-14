@@ -14,14 +14,15 @@
 <body>
 
     <!-- /#site_header -->
-    <div id="site_header">Questo è l'header</div>
+    @include('partials.header')
     <!-- /#site_main -->
     <div id="site_main">
         <!-- Contenuto dinamico -->
         @yield('content')
     </div>
+
     <!-- /#site_footer -->
-    <div id="site_footer">Questo è il footer</div>
+    @include('partials.footer')
 
     <!-- Link a JS (Se serve) -->
     <script src="{{asset('js/app.js')}}"></script>
