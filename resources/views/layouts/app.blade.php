@@ -15,6 +15,7 @@
 
     <!-- /#site_header -->
     @include('partials.header')
+
     <!-- /#site_main -->
     <div id="site_main">
         <!-- Contenuto dinamico -->
